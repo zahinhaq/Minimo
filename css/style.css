@@ -1,0 +1,341 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+}
+.logo {
+    width: 40%;
+    float: left;
+}
+.logo_img img {
+    width: 25%;
+    
+}
+
+nav {
+    width: 60%;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    margin-top: 1%;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 30px;   
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(126, 123, 123);
+    font-size: 16px;
+}
+
+.content_section {
+    width: 90%;
+    margin: auto;
+}
+
+.main_img img {
+    width: 100%;
+    margin-top: 5%;
+}
+.main_p {
+    color: rgb(129, 127, 127);
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+    font-size: 18px;
+}
+.main_p h4 {
+    color:rgb(126, 123, 123);
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.main_p h2{
+    color:#464646;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+.comment_section{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.comment_section textarea{
+    border-style: none;
+    resize: none;
+    outline: none;
+    overflow: auto;
+    color:rgb(126, 123, 123);
+    cursor: pointer;
+}
+.content_section2 {
+    margin-top: 5%;
+    
+    
+}
+
+.box_content {
+    overflow: hidden;
+}
+.box_content .left_content {
+    float: left;
+    width: 33%;
+    margin-left: 14%;
+    }
+
+.box_content .left_content img {
+    width: 100%;
+} 
+.box_content .left_content h4 {
+    margin-top: 5%;
+    color:rgb(126, 123, 123);
+    text-transform: uppercase;
+    font-size: 14px;
+} 
+.box_content .left_content h2 {
+    margin-top: 5%;
+    color:#464646;
+} 
+.box_content .left_content p {
+    margin-top: 5%;
+    color: rgb(129, 127, 127);
+    font-size: 18px;
+}
+.box_content .right_content {
+    float: right;
+    margin-left: 6%;
+    width: 33%;
+    margin-right: 14%;   
+}
+.box_content .right_content img {
+    width: 100%;
+} 
+.box_content .right_content h4 {
+    margin-top: 5%;
+    color:rgb(126, 123, 123);
+    text-transform: uppercase;
+    font-size: 14px;
+} 
+.box_content .right_content h2 {
+    margin-top: 5%;
+    color:#464646;
+} 
+.box_content .right_content p {
+    margin-top: 5%;
+    color: rgb(129, 127, 127);
+    font-size: 18px;
+}
+.box_content2 {
+    overflow: hidden;
+    margin-top: 10%;
+}
+.box_content2 .left_content {
+    float: left;
+    width: 33%;
+    margin-left: 14%;
+    }
+
+.box_content2 .left_content img {
+    width: 100%;
+} 
+.box_content2 .left_content h4 {
+    margin-top: 5%;
+    color:rgb(126, 123, 123);
+    text-transform: uppercase;
+    font-size: 14px;
+} 
+.box_content2 .left_content h2 {
+    margin-top: 5%;
+    color:#464646;
+} 
+.box_content2 .left_content p {
+    margin-top: 5%;
+    color: rgb(129, 127, 127);
+    font-size: 18px;
+}
+.box_content2 .right_content {
+    float: right;
+    margin-left: 6%;
+    width: 33%;
+    margin-right: 14%;   
+}
+.box_content2 .right_content img {
+    width: 100%;
+} 
+.box_content2 .right_content h4 {
+    margin-top: 5%;
+    color:rgb(126, 123, 123);
+    text-transform: uppercase;
+    font-size: 14px;
+} 
+.box_content2 .right_content h2 {
+    margin-top: 5%;
+    color:#464646;
+} 
+.box_content2 .right_content p {
+    margin-top: 5%;
+    color: rgb(129, 127, 127);
+    font-size: 18px;
+}
+.newsletter {
+    margin-top: 10%;
+    background-color:#e4e3e3;
+    padding: 5%;
+}
+.newsletter h2{
+    width: 100%;
+    text-align: center;
+    color:#464646;
+}
+.newsletter_input{
+    text-align: center;
+}
+.newsletter_input textarea{
+    margin-top: 3%;
+    text-align: left;
+    background-color:#e4e3e3;
+    color:#464646;
+    border-style: none;
+    resize: none;
+    outline: none;
+    overflow: auto;
+}
+.send {
+    background-color:#e4e3e3;
+    height: 1px;
+    border: none; 
+    color: #464646;
+    cursor: pointer;
+}
+.border {
+    margin-left: 40%;
+    width: 20%;
+    margin-right: 40%;
+    border-bottom: 2px solid rgb(196, 195, 195);
+    
+}
+.content_section3 {
+    overflow: hidden;
+    margin-top: 10%;
+}
+.content_section3 .left_content {
+    float: left;
+    width: 33%;
+    margin-left: 14%;
+    }
+
+.content_section3 .left_content img {
+    width: 100%;
+} 
+.content_section3 .left_content h4 {
+    margin-top: 5%;
+    color:rgb(126, 123, 123);
+    text-transform: uppercase;
+    font-size: 14px;
+} 
+.content_section3 .left_content h2 {
+    margin-top: 5%;
+    color:#464646;
+} 
+.content_section3 .left_content p {
+    margin-top: 5%;
+    color: rgb(129, 127, 127);
+    font-size: 18px;
+}
+.content_section3 .right_content {
+    float: right;
+    margin-left: 6%;
+    width: 33%;
+    margin-right: 14%;   
+}
+.content_section3 .right_content img {
+    width: 100%;
+} 
+.content_section3 .right_content h4 {
+    margin-top: 5%;
+    color:rgb(126, 123, 123);
+    text-transform: uppercase;
+    font-size: 14px;
+} 
+.content_section3 .right_content h2 {
+    margin-top: 5%;
+    color:#464646;
+} 
+.content_section3 .right_content p {
+    margin-top: 5%;
+    color: rgb(129, 127, 127);
+    font-size: 18px;
+}
+.more_content{
+    margin-top: 10%;
+    text-align: center;
+}
+.more_content button {
+    background-color: white;
+    padding: 1% 2%;
+    cursor: pointer;
+    color:#464646;
+    border-color:rgb(129, 127, 127) ;
+    font-size: 16px;
+}
+footer {
+    padding: 2% 2%;
+    margin-top: 10%;
+    background-color:#e4e3e3 ;
+    overflow: hidden;
+}
+
+.footer {
+    width: 50%;
+    margin-left: 12%;
+    float: left;
+}
+.footer a {
+    color:#464646;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer ul {
+    list-style: none;
+    float: left;
+}
+.footer ul li {
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.social_media {
+    color:#464646;
+    margin-right: 10%;
+    float: right;
+}
+.social_media p{
+    float: left;
+    margin-right: 10px ;
+}
+.social_media ul{
+    list-style: none;
+    float: right ;
+}
+.social_media ul li {
+    float: left;
+}
+.social_media ul li a {
+    color:#464646;
+    margin-right: 10px;
+    float: right;
+}
+
