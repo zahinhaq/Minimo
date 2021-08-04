@@ -39,7 +39,9 @@ nav ul li a {
     color: rgb(126, 123, 123);
     font-size: 16px;
 }
-
+nav ul li a:hover{
+    color:#464646;
+}
 .content_section {
     width: 90%;
     margin: auto;
@@ -80,10 +82,11 @@ nav ul li a {
     color:rgb(126, 123, 123);
     cursor: pointer;
 }
+.comment_section textarea:hover{
+    color:#464646;
+}
 .content_section2 {
     margin-top: 5%;
-    
-    
 }
 
 .box_content {
@@ -212,12 +215,19 @@ nav ul li a {
     outline: none;
     overflow: auto;
 }
+.newsletter_input textarea:hover{
+    color:black;
+}
+
 .send {
     background-color:#e4e3e3;
     height: 1px;
     border: none; 
     color: #464646;
     cursor: pointer;
+}
+.send:hover{
+    color: black;
 }
 .border {
     margin-left: 40%;
@@ -290,6 +300,9 @@ nav ul li a {
     border-color:rgb(129, 127, 127) ;
     font-size: 16px;
 }
+.more_content button:hover{
+    color: black;
+}
 footer {
     padding: 2% 2%;
     margin-top: 10%;
@@ -316,6 +329,9 @@ footer {
     float: left;
     margin-right: 10px;
 }
+.footer ul li a:hover {
+    color: black;
+}
 
 .social_media {
     color:#464646;
@@ -338,4 +354,6 @@ footer {
     margin-right: 10px;
     float: right;
 }
-
+.social_media ul li a:hover{
+    color: black;
+}
